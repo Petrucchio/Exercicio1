@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio-alfa-people", "Exercicio-alfa-people.csproj", "{4C665AC1-4576-4BC7-B52E-28B45741E79B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstPlugin", "..\MyFirstPlugin\MyFirstPlugin.csproj", "{CF8B012A-2EDB-457F-9B3F-8757CD596553}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "..\SharedProject\SharedProject.shproj", "{1512D3FE-B5EB-468E-95D3-DBAABB9AEAD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,19 @@ Global
 		{4C665AC1-4576-4BC7-B52E-28B45741E79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C665AC1-4576-4BC7-B52E-28B45741E79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C665AC1-4576-4BC7-B52E-28B45741E79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8B012A-2EDB-457F-9B3F-8757CD596553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8B012A-2EDB-457F-9B3F-8757CD596553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8B012A-2EDB-457F-9B3F-8757CD596553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8B012A-2EDB-457F-9B3F-8757CD596553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F850C35E-B0C3-4D0E-8F67-ABAA87C8EBFC}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\SharedProject\SharedProject.projitems*{1512d3fe-b5eb-468e-95d3-dbaabb9aead5}*SharedItemsImports = 13
+		..\SharedProject\SharedProject.projitems*{cf8b012a-2edb-457f-9b3f-8757cd596553}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
